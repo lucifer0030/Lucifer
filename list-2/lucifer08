@@ -1,0 +1,34 @@
+#include<iostream>
+#define PI 3.14
+using namespace std;
+class area
+{
+	private:
+		int s;
+		double r;
+		int l,b;
+	public:
+		void Area(int l,int b)
+		{
+			cout<<l*b<<endl;
+		}
+		void Area(int s)
+		{
+			cout<<s*4<<endl;
+		}
+		void Area(double r)
+		{
+			cout<<PI*r*r<<endl;
+		}
+};
+int main()
+{
+	area a;
+	cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
+	cout<<"---------------------"<<endl;
+	a.Area(4,5);
+	a.Area(4);
+	a.Area(3.34); 
+	return 0;
+}
