@@ -1,0 +1,13 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+	// using function Setprecision 
+	float a = 10.0134;
+	cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
+	cout<<"---------------------"<<endl;
+	cout<<"The value of A : "<<setprecision(4)<<a;
+	return 0;
+}
