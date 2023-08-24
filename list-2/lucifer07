@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+inline int Square(int a) 
+{
+	return a*a;
+}
+int main() 
+{
+	int a;
+	cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
+	cout<<"---------------------"<<endl;
+	cout<<"Enter The Value ::"<<endl;
+	cin>>a;
+
+	cout<<"The Square Of The Number is ::"<<Square(a);
+
+	return 0;
+}
