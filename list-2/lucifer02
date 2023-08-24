@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int print(int &p);
+int main()
+{
+	int p;
+  cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
+	cout<<"---------------------"<<endl;
+	cout<<"Enter The Number ::";
+	cin>>p;
+	
+	print(p);
+	return 0;
+}
+int print(int &p)
+{
+	cout<<"The Number is ::"<<p;
+}
