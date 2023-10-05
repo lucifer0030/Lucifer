@@ -1,0 +1,26 @@
+// emp_name, emp_code, emp_salary, emp_branch and also display
+#include<iostream>
+using namespace std;
+struct Employee
+{
+	int code;
+	string name,branch;
+	float salary;
+}e1;
+int main()
+{
+  cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
+	cout<<"---------------------"<<endl;
+	cout<<"Enter the basic infromation of employee "<<endl;
+	cout<<"Enetr the Name   : ";
+	getline(cin,e1.name);
+	cout<<"Enter the Code   : ";
+	cin>>e1.code;
+	cout<<"Enter the Salary : ";
+	cin>>e1.salary;
+	cin.ignore();
+	cout<<"Enter the Branch : ";
+	getline(cin,e1.branch);
+	
+	
