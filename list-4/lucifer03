@@ -22,8 +22,8 @@ main()
 {
 	int i,n;
 	largest l[10];
-	cout<<"I am chirag sanchaniya "<<endl;
-	cout<<"En_no    220130318030 "<<endl;
+	cout<<"I am shyam panchasara "<<endl;
+	cout<<"En_no    220130318006 "<<endl;
 	cout<<"---------------------"<<endl;
 	cout<<"Enter the size of array : ";
 	cin>>n;
@@ -38,3 +38,11 @@ main()
 			l[0].spi = l[i].spi;
 		}
 	}
+	cout<<"id is :   " <<l[0].id<<"    highest : "<<l[0].spi<<endl;
+	for(i=0;i<n;i++)
+	{
+		l[i].putdata();
+		cout<<endl;
+	}
+	return 0;
+}
