@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class employee
+{
+	private:
+		string name;
+		int em_no;
+	public:
+		void get_details()
+		{
+			cout<<"I am chirag sanchaniya "<<endl;
+			cout<<"En_no    220130318030 "<<endl;
+			cout<<"---------------------"<<endl;
+			cout<<"Enter Employee Name ::";
+			getline(cin,name);
+			cout<<"Enter The Employye Number ::";
+			cin>>em_no;
+		}
+		
+		void display_details()
+		{
+			cout<<"Employee Name is ::"<<name<<endl;
+			cout<<"Employee Number is ::"<< em_no<<endl;
+			
+		}
+};
