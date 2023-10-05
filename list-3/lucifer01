@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+struct srudent{
+	int std;
+	float per;
+	string name;
+}s1;
+int main()
+{
+  cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
+	cout<<"---------------------"<<endl;
+	cout<<"Enter the basic student infromation "<<endl;
+	cout<<"Enter the name       : ";
+	getline(cin,s1.name);
+	cout<<"Enter the standard   : ";
+	cin>>s1.std;
+	cout<<"Enter the percenatge : ";
+	cin>>s1.per;
+	
+	cout<<"Infromation of student :)"<<endl;
+	cout<<"Name       : "<<s1.name<<endl;
+	cout<<"Standard   : "<<s1.std<<endl;
+	cout<<"percentage : "<<s1.per<<endl;
+	return 0;
+}
