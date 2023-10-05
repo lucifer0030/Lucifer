@@ -24,3 +24,11 @@ class product
 			cout<<"Product_Id is ::"<<product_id<<endl;
 			cout<<"Product_Name is ::"<<product_name<<endl;
 			cout<<"Unit_Price is ::"<<unit_price<<endl;
+		}
+	
+};
+int main()
+{
+	cout<<"I am shyam panchasara "<<endl;
+	cout<<"En_no    220130318006 "<<endl;
+	cout<<"---------------------"<<endl;
