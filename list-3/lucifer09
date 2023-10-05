@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class maximum
+{
+     	int num_1,num_2;
+     	int largest()
+     	{
+     		if(num_1>num_2)
+     		{
+     			return num_1;
+			}
+			else
+			{
+				return num_2;
+			}
+		 }
+
+		public:
+	
+      	void getdata()
+		{
+			cout<<"Enter The Number Num_1 :: ";
+      		cin>>num_1;
+      		cout<<"Enter The Number Num_2 :: ";
+      		cin>>num_2;
+      	}
