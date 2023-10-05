@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class account
+{
+	public:
+		float acc_no;
+		float balance;
+		string branch_code;
+		void get_details();
+		void display_details();
+};
+int main()
+{
+	account A;
+	
+	cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
+	cout<<"---------------------"<<endl;
+	cout<<"Enter The Account Number ::";
+	cin>>A.acc_no;
+	cout<<"Enter The Branch Code ::";
+	cin>>A.branch_code;
+	cout<<"Enter The Balance ::";
+	cin>>A.balance;
+	
+	cout<<"The Account Number is ::"<<A.acc_no<<endl;
