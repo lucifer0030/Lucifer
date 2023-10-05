@@ -1,0 +1,26 @@
+
+#include<iostream>
+using namespace std;
+struct student
+{
+ char a;
+ float c;
+ char b;
+};
+int main()
+{
+  cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
+	cout<<"---------------------"<<endl;
+ cout<<sizeof(student);
+ return 0;
+} 
+
+
+
+
+
+
+
+
+
