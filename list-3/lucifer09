@@ -24,3 +24,10 @@ class maximum
       		cout<<"Enter The Number Num_2 :: ";
       		cin>>num_2;
       	}
+	void putdata()
+		{
+      		int maximum=largest();        //nesting of member function
+      		cout<<"Maximum number is :: "<<maximum<<endl;
+    	}
+};
+int main()
