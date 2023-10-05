@@ -24,3 +24,11 @@ class max
 			{
 				cout<<"A is Maximum ";
 			}
+			else 
+			{
+				if(b>c)
+				{
+					cout<<"B is Maximum";
+				}
+				else
+				{
