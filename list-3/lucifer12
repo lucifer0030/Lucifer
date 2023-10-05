@@ -24,3 +24,11 @@ void item :: getdata()
 			
 		}
 int main()
+{ 
+	cout<<"I am shyam panchasara "<<endl;
+	cout<<"En_no    220130318006 "<<endl;
+	cout<<"---------------------"<<endl;
+	item i;
+	i.getdata();
+	i.putdata();
+}
