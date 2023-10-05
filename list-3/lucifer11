@@ -32,4 +32,17 @@ int main()
 	cout<<"I am chirag sanchaniya "<<endl;
 	cout<<"En_no    220130318030 "<<endl;
 	cout<<"---------------------"<<endl;.
-};
+	product p1,p2;
+	cout<<endl<<"Enter Details for Product 1 :)"<<endl;
+	p1.getdata();
+	
+	cout<<endl<<"Enter Details for Product 2 :)"<<endl;
+	p2.getdata();
+	
+	cout<<endl<<"Details for Product 1 is :)"<<endl;
+	p1.putdata();
+	
+	cout<<endl<<"Details for Product 2 is :)"<<endl;
+	p2.putdata();
+	
+	return 0;
