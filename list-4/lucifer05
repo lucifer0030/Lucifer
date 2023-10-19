@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+class Distance
+{
+	private:
+		float feet,inches;
+	public:
+		
+		void get_details()
+		{
+			cout<<"I am chirag sanchaniya "<<endl;
+			cout<<"En_no    220130318030 "<<endl;
+			cout<<"---------------------"<<endl;
+			cout<<"Enter The Measure of Feet ::";
+			cin>>feet;
+			cout<<"Enter The Measure of Inches ::";
+			cin>>inches;
+		}
+		
+		void display_details()
+		{
+			cout<<"The Measurement of Feet With Inches are ::"<<feet<<" Feet "<<inches<<" Inches";
+			
+		}
+};
+int main()
+{
+	Distance m;
+	m.get_details();
+	m.display_details();
+	
+	return 0;
+}	
