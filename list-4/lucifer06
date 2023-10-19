@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+class Shape
+{
+	public:
+		float height,base;
+	public:
+		void get_shape();
+		void put_shape();		
+};
+
+void Shape::get_shape()
+{
+	cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
+	cout<<"---------------------"<<endl;
+	cout<<"Enter The Height ::";
+	cin>>height;
+	cout<<"Enter The Base ::";
+	cin>>base;
+}
+
+void Shape::put_shape()
+{
+	
+	cout<<endl<<"The Height of Shape is ::"<<height<<endl;
+	cout<<"The Base of Shape is ::"<<base<<endl;
+	cout<<endl<<height<<" X "<<base<<endl;
+		
+}
+int main()
+{
+	Shape s;
+	s.get_shape();
+	s.put_shape();
+}
