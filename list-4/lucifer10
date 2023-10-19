@@ -1,46 +1,24 @@
+// Demonstrate use of default constructor 
 #include<iostream>
 using namespace std;
-class max
-{
-	private:
-		int a,b,c;
+class area{
+	int length,breath;
 	public:
-		void get_details()
+		area()
 		{
-			cout<<"I am chirag sanchaniya "<<endl;
-			cout<<"En_no    220130318030 "<<endl;
-			cout<<"---------------------"<<endl;
-			cout<<"Enter The A ::";
-			cin>>a;
-			cout<<"Enter The B ::";
-			cin>>b;
-			cout<<"Enter The C ::";
-			cin>>c;
+			length=20;
+			breath=30;
 		}
-		
-		void display_details()
+		void display()
 		{
-			if(a>b && a>c)
-			{
-				cout<<"A is Maximum ";
-			}
-			else 
-			{
-				if(b>c)
-				{
-					cout<<"B is Maximum";
-				}
-				else
-				{
-					cout<<"C is Maximum";
-				}
-			}
-		}
-}m;
+			cout<<"Area of reatangle : "<<length*breath;
+		}	
+};
 int main()
 {
-	m.get_details();		
-	m.display_details();
-	
-	return 0;
+	cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
+	cout<<"---------------------"<<endl;
+	area a1;
+	a1.display();
 }
