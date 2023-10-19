@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+class student
+{
+	private:
+		string name;
+		int age;
+	public:
+		
+		void get_details()
+		{
+			cout<<"I am chirag sanchaniya "<<endl;
+			cout<<"En_no    220130318030 "<<endl;
+			cout<<"---------------------"<<endl;
+			cout<<"Enter The Name of Student ::";
+			cin>>name;
+			cout<<"Enter The Age of Student ::";
+			cin>>age;
+		}
+		
+		void display_details()
+		{
+
+			cout<<"The Name of Student is ::"<<name<<endl;
+			cout<<"The Age of Student is ::"<<age<<endl;
+		}
+};
+int main()
+{
+	student s;
+	s.get_details();
+	s.display_details();
+	
+	return 0;
+}
