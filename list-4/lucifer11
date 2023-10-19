@@ -1,0 +1,49 @@
+#include<iostream>
+using namespace std;
+class product
+{
+	private :
+	int product_id;
+	string product_name;
+	int unit_price;
+	
+	public:
+		void getdata()
+		{
+			cout<<"Enter Product_Id ::";
+			cin>>product_id;
+			cin.ignore();
+			cout<<"Enter Product_Name ::";
+			getline(cin,product_name);
+			cout<<"Enter Unit_Price ::";
+			cin>>unit_price;
+		}
+		
+		void putdata()
+		{
+			cout<<"Product_Id is ::"<<product_id<<endl;
+			cout<<"Product_Name is ::"<<product_name<<endl;
+			cout<<"Unit_Price is ::"<<unit_price<<endl;
+		}
+	
+};
+int main()
+{
+	cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
+	cout<<"---------------------"<<endl;
+	product p1,p2;
+	cout<<endl<<"Enter Details for Product 1 :)"<<endl;
+	p1.getdata();
+	
+	cout<<endl<<"Enter Details for Product 2 :)"<<endl;
+	p2.getdata();
+	
+	cout<<endl<<"Details for Product 1 is :)"<<endl;
+	p1.putdata();
+	
+	cout<<endl<<"Details for Product 2 is :)"<<endl;
+	p2.putdata();
+	
+	return 0;
+}
