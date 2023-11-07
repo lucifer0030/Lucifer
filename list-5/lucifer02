@@ -22,8 +22,8 @@ class C : public B{
 };
 int main()
 {
-	cout<<"I am shyam panchasara "<<endl;
-	cout<<"En_no    220130318006 "<<endl;
+	cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
 	cout<<"---------------------"<<endl;
 	C obj;
 	B obj1;
