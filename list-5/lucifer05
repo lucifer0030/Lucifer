@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+class Info{
+        string name;
+        int id;
+    public:
+        Info(string name,int id){
+            this->name=name;
+            this->id=id;
+        }
+        void display(){
+            cout<<"Name : "<<name<<endl<<"ID : "<<id;
+        }
+};
+int main(){
+    cout<<"I am chirag sanchaniya "<<endl;
+	cout<<"En_no    220130318030 "<<endl;
+	cout<<"---------------------"<<endl;
+    Info I("chirag sanchaniya",30);
+    I.display();
+}
